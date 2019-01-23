@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EndToEndTest]">
+  <test name="DotDashtest(failed)">
+    <parameter name="ExistingTodoname" value="DotdashTesttodo1"/>
+    <classes>
+      <class name="TestCasesDotdash.testCases">
+        <methods>
+          <include name="ClosetheApplication"/>
+          <include name="DeleteTodo"/>
+          <include name="binitialisation"/>
+        </methods>
+      </class> <!-- TestCasesDotdash.testCases -->
+    </classes>
+  </test> <!-- DotDashtest(failed) -->
+</suite> <!-- Failed suite [EndToEndTest] -->
